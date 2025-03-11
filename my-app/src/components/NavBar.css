@@ -1,0 +1,49 @@
+.navContext {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+   
+    padding: 10px;
+    height: 40px;
+  }
+nav{
+    background: #F5F5C1; 
+
+   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+  .links {
+    
+    width: 30%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: #D6926D;
+  }
+
+  #activeLink{
+    colour:#54742B ;
+
+  }
+
+  .iconGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+
+  }
+
+  
+ 
